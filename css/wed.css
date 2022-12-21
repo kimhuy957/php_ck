@@ -1,0 +1,533 @@
+:root{
+  --background-:#69c0a9 ;
+  --background1-:#639689 ;
+  --background2-:#6985d4;
+  --background3-:#69d4cd;
+  --font-letter1-:#10b90d;
+  --font-letter2-:#c0b51c;
+  --font-letter3-:#43c423;
+  --font-letter4-:#ff44ae;
+  --font-letter5-:#120808;
+  --buttom-1-:#13bfce;
+  --buttom-2-:#fe2a2a;
+  --buttom-3-:#7fe023;
+  --buttom-4-:#ce132f;
+  --buttom-5-:#2ee960;
+  --buttom-6-:#8b2ee9;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  html,body {
+  
+    width: 100%;
+      height: 100%;
+      background-color: var(--background-);
+      color:var(--font-letter5-);
+  }
+.dangnhap{
+    width: 100%;
+    height: 100%;
+    margin-top: -100px;
+    
+  }
+  /* .anhdangnhap{
+    width: 50%;
+    height: 110%;
+    
+  } */
+  
+  .dangnhap .nhapdn{
+    text-align: center;
+  }
+  .dangnhap .nhapdn>li{
+    list-style: none;
+    font-size: 20px;
+    color: #ff3131;
+  
+  }
+  .dangnhap .nhapdn .dn1{
+    text-decoration: none;
+    font-family: 'Itim',cursive;
+    font-size: 50px;
+    margin-top: 100px;
+    font-weight: bold;
+    color: var(--font-letter2-);
+  }
+  
+  .dangnhap .nhapdn li input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #002fff;
+    
+  }
+  .dangnhap .nhapdn .nametk input{
+    margin-left: 20px;
+  }
+  .dangnhap .nhapdn .pass input{
+    margin-left: 60px;
+  }
+  .dangnhap .nhapdn .andn button{
+    background-color: var(--buttom-1-);
+    color: var(--font-letter5-);
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+  
+  }
+  .dangnhap .nhapdn .andn button:hover{
+    background-color: var(--buttom-4-);
+  }
+  .nhapdn .andn input:hover{
+    background-color: var(--buttom-4-);
+    color: var(--font-letter3-);
+  }
+  .nhapdn .quen a{
+    text-decoration: none;
+   font-size: 20px;
+   color: var(--font-letter5-);
+  }
+  .nhapdn .quen a:hover{
+   color: var(--font-letter2-);
+  }
+  .nhapdn .quen{
+   margin-top: 20px;
+   margin-left: -300px;
+  }
+  a{
+    text-decoration: none;
+    color: var(--font-letter5-);
+  }
+  .nhapdn .dk a{
+    text-decoration: none;
+   font-size: 20px;
+   color: var(--font-letter5-);
+  }
+  .nhapdn .dk a:hover{
+    color: var(--font-letter2-);
+  }
+  .nhapdn .dk{
+   margin-top: -20px;
+   margin-left: 460px;
+  }
+  .dangkybang{
+    margin: 50px auto;
+  }
+  .dangkybang tr td{
+    height: 50px;
+    display: flex;
+  }
+  input{
+    background-color: var(--buttom-2-);
+    border-radius: 10px;
+  
+  }
+  input::placeholder { 
+    color: var(--font-letter2-);
+  }
+  .dangkybang tr td input{
+    margin: auto;
+    height: 30px;
+    width: 200px;
+    margin-top: -5px;
+  }
+  .dangkybang .gioit input{
+    width:50px;
+    height: 20px;
+  }
+  .dangkybang .sdt input{
+    margin-left: 100px;
+  }  
+
+  .dangkybang .year input{
+    margin-left: 122px;
+    color: var(--font-letter2-);
+  }
+  .dangkybang .gmail input{
+    margin-left: 146px;
+  }
+  
+  .dangkybang .mk input{
+    margin-left: 86px;
+  }
+  .dangkybang .andn input{
+    margin-left: 196px;
+    background-color:var(--buttom-1-) ;
+    border-radius: 10px;
+  }
+  .dangkybang .andn .quaylai ion-icon{
+    margin-left: -120px;
+    margin-top: -8px;
+  
+  }
+  .dangkybang .checkbox input{
+    width: 20px;
+    height: 20px;
+  }
+  .dangkybang .andn .quaylai ion-icon{
+    width: 40px;
+    height: 40px;
+    background-color: var(--buttom-1-);
+    border-radius: 50px;
+  }
+  .dangkybang .andn .quaylai ion-icon:hover{
+    background-color: var(--buttom-4-);
+  }
+  .tongdn .info_php {
+    background-color: var(--background1-);
+    width: 100%;
+    border-radius: 20px;
+    visibility: 0.2;
+  }
+  .tongdn .info_php p{
+    text-align: center;
+    color: var(--font-letter5-);
+    font-size: 20px;
+  }
+  /* trangchu.php */
+  .tong .menu_ngang{
+   background-color: var(--background3-);
+   width: 100%;
+   height: 50px;
+   display: flex;
+   position: relative;
+  }
+  .menu_ngang .logo a img{ 
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    
+  }
+  .menu_ngang .menu_user{
+    background-color: #63968900;
+    width: 200px;
+    position: absolute;
+    right: 10px;
+
+  }
+  li{
+    list-style: none;
+    font-size: 20px;
+    height: auto;
+    text-align: center;
+    
+  }
+  a{
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .menu_user .lever_1 li{
+    background-color: var(--buttom-2-);
+    height: 50px;
+    padding:10px;
+  }
+  .menu_user .lever_1 li:hover{
+    background-color: #fe2a2a;
+  }
+  .lever_1 li b{ 
+    color: var(--font-letter5-);
+  }
+  
+  .lever_1 .lever_2{
+    margin-top: 17px;
+    margin-left: -10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .lever_1 li:hover> .lever_2{
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .lever_1 .lever_2 li:hover{
+    background-color: burlywood;
+  }
+  .lever_1 .lever_2 li{
+    background-color: #9d6786;
+    width: 200px;
+    border: 0.5px solid var(--font-letter5-);
+  }
+  li a{
+    color: var(--font-letter5-);
+  }
+  /* menu các chu de*/
+  .tong .menu_chinh{
+    background-color: var(--background2-);
+    width: 80%;
+    height: 70px;
+    border-radius: 20px;
+    margin:0 auto ;
+    margin-top: 5px;
+  }
+  .menu_chinh .menu_chude ul{
+    display: flex;
+    position: relative;
+  }
+  .menu_chude li{
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    height: 50px;
+    color: var(--font-letter5-);
+    transition: 0.5s;
+    font-size: 25px;
+  }
+  .menu_chude li a:hover{
+    color: var(--font-letter4-);
+  }
+  /*menu-giua*/
+  .tong .menu_giua{
+    margin: 0 auto;
+    background-color: var(--background1-);
+    width: 90%;
+    min-height: 800px;
+    margin-top: 5px;
+    border-radius: 8px;
+    }
+  .menu_giua>ul{
+    margin: 0 auto;
+    background-color: #120808;
+    width: 80%;
+
+  }
+  .menu_giua>ul li{
+    width: 30%;
+    height: 300px;
+    background-color: var(--background2-);
+    margin: 10px 20px;
+    float: left;
+    border-radius: 15px;
+  }
+
+  .menu_giua ul .plus a{
+    color: var(--font-letter1-);
+    font-size: 250px;
+    
+    font-weight: bold;
+  }
+  .menu_giua>ul li .anh img{
+    width: 99%;
+    height: 200px;
+    border-radius: 15px;
+    margin: 1px;
+  }
+  .menu_giua ul li>.ten_cd{
+   overflow :hidden;
+   white-space:  normal;
+   text-Overflow:clip;
+   font-size: 25px;
+  }
+  .menu_giua ul li>.nut{
+    margin: 0 auto;
+    width: 50%!important;
+  }
+  /* .menu_giua ul li .nut{
+    
+    margin-top: 10px;
+    background-color: var(--buttom-1-);
+    width: 50%!important;
+    
+    border-radius: 10px;
+  } */
+  .menu_giua ul li>.nut a{
+    margin: 0 auto;
+    /* font-size: 2px; */
+    padding: 3px 17px;
+  }
+  .menu_giua ul .nut a:hover{
+    background-color: var(--buttom-2-);
+  }
+  ul .plus a:hover{
+    color:var(--font-letter2-);
+  }
+.tong .menu_cuoi{
+  background-color: var(--background3-);
+  width: 100%;
+  height: 50px;
+}
+.menu_giua .bai_hoc ul{
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    /* align-items: center; */
+}
+.nut{
+  margin-left: 6.5%;
+  width: 100%;
+  display: flex;
+}
+.nut div{
+  margin-left: 5px;
+  
+}
+.nut div a:hover{
+ cursor:pointer;
+ color: var(--font-letter4-);
+padding: 15px;
+}
+.nut a{
+  line-height: 50px;
+  padding: 10px;
+  background-color: var(--buttom-3-);
+  border-radius: 10px;
+}
+.bai_hoc .ul_bh>li{
+  background-color: var(--background3-);
+  width: 90%;
+  margin-top: 10px;
+  height: 40px;
+  text-align: left;
+  display: flex;
+  border-style: hidden hidden double;
+  border-width:2px ;
+  border-color: var(--font-letter2-);
+}
+.ul_bh .ten_bt{
+  display: flex;
+}
+.ul_bh .ten_bt {
+  margin-left: 10px;
+}
+.ul_bh li .ten_bt>a{
+  text-transform: none;
+  padding: 9px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+#a1{
+  background-color: var(--buttom-5-);
+  transition: 0.5s;
+}
+#a2{
+  background-color: var(--buttom-4-);
+  transition: 0.5s;}
+.ten_bt #a1:hover{
+  background-color: var(--buttom-3-);
+  color: var(--font-letter4-);
+}
+.ten_bt #a2:hover{
+  background-color: var(--buttom-3-);
+  color: var(--font-letter4-);
+}
+
+.from{
+  margin: 0 auto;
+  width: 23%;
+}
+.from h3 {
+  line-height: 50px;
+  margin-left: 150px;
+}
+
+.from .text label{
+  margin-left: 10px;
+  font-size: 20px;
+}
+.from .text input{
+  margin-left: 10px;
+  height: 40px;
+  width: 300px;
+}
+.from .nut{
+  display: flex;
+}
+ .nut .input input{
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+}
+.input input:hover{
+  cursor:pointer;
+  color: var(--font-letter4-);
+  background-color: var(--buttom-3-); 
+}
+.nut .a{ margin-top: 5.5px;}
+.nut a{
+  line-height: 50px;
+  padding: 9.5px;
+  background-color: var(--buttom-2-);
+  border-radius: 10px;
+  border:2px solid #120808 ;
+}
+.nut .a>a:hover{
+  padding: 9.5px;
+  cursor:pointer;
+  color: var(--font-letter4-);
+  background-color: var(--buttom-3-);
+ }
+#thongbao{
+  width: 100%;
+  min-height: 50px;
+  background-color: var(--background3-);
+  border-radius: 10px;
+  color: var(--font-letter2-);
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+}
+.ttt .from{
+  width: 50%;
+  background-color: #002fff;
+}
+.from .mb-3{
+  margin-bottom: 5px;
+}
+.from .mb-3 label{
+ margin-left: 10px;
+ font-size: 15px;
+}
+.from .mb-3 input{
+  width: 100%;
+  height: 30px;
+}
+.from h3{
+  margin-left: 30%;
+}
+.mb-3 .file::-webkit-file-upload-button{
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--buttom-5-);
+}
+.from form input.submit1{
+  margin-top: 10px;
+  margin-left: 20px;
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.from form .quaylai{
+  margin-top: 10px;
+  margin-left: 20px;
+  border: none;
+  color: white;
+  padding: 4px 30px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.from form input.submit1:hover{
+  cursor:pointer;
+  color: var(--font-letter4-);
+  background-color: var(--buttom-3-); 
+}
+a.quaylai{
+  background-color: var(--buttom-3-);
+}
+a.quaylai:hover{
+  background-color: var(--buttom-6-);
+}
