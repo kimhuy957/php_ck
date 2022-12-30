@@ -7,5 +7,6 @@
     <title>HNEDU</title>
     <link rel="shortcut icon" href="../css/img/logo.png">
         <link rel="stylesheet" type="text/css" href="../css/wed.css">
-        <link rel="stylesheet" href="../css/vaohoc.css">
+        <link rel="stylesheet" href="../css/QLHS.css">
+        <script src="../js/web.js"></script> 
 </head>

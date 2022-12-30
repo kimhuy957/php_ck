@@ -50,13 +50,13 @@ include "../function/sql.php";
             $id ='';
             $quyen='';
             if(mysqli_num_rows($query)>0){
-                $flay1=true;
                 $user1 =mysqli_fetch_array($query);
                 $id=$user1['id_user_gv'];
-                $_SESSION['id']=$id;
-                $_SESSION['loai']=$user1['loai'];
+                $_SESSION['id_user_gv']=$user1['id_user_gv'];
+                $_SESSION['loai']=$user1['quyen'];
                 // $_SESSION['fullname']=$_POST['username'];
                 $_SESSION['username']=$user;
+                $flay1=true;
                 
             }
             // return $flay1;

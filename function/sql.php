@@ -14,8 +14,12 @@ if($conn){
 
 ?>
 <?php
-function dangky(){
-    $baitap="SELECT * from dangky";   
-return $baitap;
-}
+// function dangky(){
+//     $baitap="SELECT * from dangky";   
+// return $baitap;
+// }
+// function quan_ly_lop_hoc(){
+//     $quan_ly_lop_hoc="SELECT * from quan_ly_hoc_sinh";
+//     return $quan_ly_lop_hoc;
+// }
 ?>

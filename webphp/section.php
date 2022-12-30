@@ -15,7 +15,7 @@
         </li>';
             }}
     ?>
-        <li class="plus"><a href="them_cd.php?id_user_gv=<?php echo $id?>">+</a></li>   
+        <li class="plus"><a href="them_cd.php?id_user_gv=<?php echo $_SESSION['id_user_gv'];?>">+</a></li>   
 </ul> 
 </div>
 <?php 

@@ -15,6 +15,11 @@ function bai_hoc(){
     $bai_hoc="SELECT * from bai_hoc";
     return $bai_hoc;
 }
+function thong_tin(){
+    $thong_tin="SELECT * from thong_tin";
+    return $thong_tin;
+    
+}
 function kiemtra($d) {
     $d = preg_replace("(à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ)", 'a', $d);
     $d = preg_replace("(è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ)", 'e', $d);
